@@ -1,4 +1,8 @@
-.photo-nashakomanda {
-    width: 270;
-    height: 260;
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --gray-backgr-color: #2F303A;
+    --accent-color: #2196F3;
+    --white-backgr-color: #FFFFFF;
+    --gray-color: #F5F4FA;
 }
