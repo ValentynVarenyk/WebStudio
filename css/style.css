@@ -18,8 +18,10 @@
 
 body {
     font-family: var(--first-family);
+    font-weight: 700;
     padding-left: 215px;
     padding-right: 215px;
+    display: inline;
 }
 
 .header {
@@ -36,7 +38,6 @@ body {
     display: inline;
     padding-right: 93px;
     font-family: var(--second-family);
-    font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
     color: var(--accent-color);
@@ -72,14 +73,12 @@ body {
     padding-right: 50px;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
 
 .nav-item:hover {
     display: inline;
-    padding-right: 50px;
     color: var(--accent-color);
 }
 
@@ -94,22 +93,20 @@ body {
 
 .header-contacts-list {
     display: inline;
-    padding-right: 215px;
 }
 
 .header-contacts-item {
     display: inline;
-    padding-left: 50px;
+    font-weight: 500;
 }
 
 .header-contacts-link {
     display: inline;
-    padding-left: 50px;
 }
 
 .footer-logo {
     display: inline;
-    padding-right: 93px;
+    font-size: 26px;
 }
 
 .footer-logo-link {
@@ -136,11 +133,13 @@ body {
 }
 
 .footer-contacts-item-adress {
-
+    line-height: 1.714285714285714;
+    font-weight: 400;
 }
 
 .footer-contacts-item {
-
+    line-height: 1.714285714285714;
+    font-weight: 400;
 }
 
 .footer-contacts-link {
@@ -158,11 +157,14 @@ body {
 }
 
 .title {
-
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.363636363636364;
 }
 
 .title-section-button {
-
+    font-size: 16px;
+    line-height: 1.875;
 }
 
 .features-section {
@@ -179,15 +181,16 @@ body {
 }
 
 .feature-name {
-
+    text-transform: uppercase;
 }
 
 .feature-description {
-
+    font-weight: 400;
+    line-height: 1.714285714285714;
 }
 
 .jobs-title {
-
+    font-size: 36px;
 }
 
 .jobs-list {
@@ -202,16 +205,16 @@ body {
 
 }
 
-.teammate-section {
+.team-section {
     width: 1600px;
     height: 648px;
 }
 
-.teammate-section-title {
-
+.team-section-title {
+    font-size: 36px;
 }
 
-.teammate-section-list {
+.team-section-list {
 
 }
 
@@ -224,11 +227,13 @@ body {
 }
 
 .teammate-name {
-
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .teammate-proffesion {
-
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
