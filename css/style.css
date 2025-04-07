@@ -1,8 +1,273 @@
 :root {
     --title-color: #212121;
+    --text-title-color: #000000;
     --text-color: #757575;
     --gray-backgr-color: #2F303A;
     --accent-color: #2196F3;
-    --white-backgr-color: #FFFFFF;
+    --white-color: #FFFFFF;
     --gray-color: #F5F4FA;
+
+    --first-family: 'Roboto';
+    --second-family: 'Raleway';
+}
+
+
+
+/* Обидві сторінки */
+
+
+body {
+    font-family: var(--first-family);
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.header {
+    background-color: var(--white-color);
+    height: 80px;
+    width: 1600px;
+}
+
+.header-nav {
+    display: inline;
+}
+
+.header-logo {
+    display: inline;
+    padding-right: 93px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.header-logo-link {
+    display: inline;
+    font-family: var(--second-family);
+}
+
+.header-logo-accent {
+    display: inline;
+    color: var(--accent-color);
+}
+
+.header-logo-text {
+    display: inline;
+    color: var(--text-title-color);
+}
+
+.nav-list {
+    display: inline;
+    width: 16px;
+    height: 281px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 344px;
+    color: var(--title-color);
+}
+
+.nav-item {
+    display: inline;
+    padding-right: 50px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.nav-item:hover {
+    display: inline;
+    padding-right: 50px;
+    color: var(--accent-color);
+}
+
+.nav-item-link {
+    display: inline;
+}
+
+.nav-item-link:hover {
+    display: inline;
+    color: var(--accent-color);
+}
+
+.header-contacts-list {
+    display: inline;
+    padding-right: 215px;
+}
+
+.header-contacts-item {
+    display: inline;
+    padding-left: 50px;
+}
+
+.header-contacts-link {
+    display: inline;
+    padding-left: 50px;
+}
+
+.footer-logo {
+    display: inline;
+    padding-right: 93px;
+}
+
+.footer-logo-link {
+    display: inline;
+    font-family: var(--second-family);
+}
+
+.footer-logo-accent {
+    display: inline;
+    color: var(--accent-color);
+}
+
+.footer-logo-text {
+    display: inline;
+    color: var(--white-color);
+}
+
+.adress {
+
+}
+
+.footer-contacts-list {
+
+}
+
+.footer-contacts-item-adress {
+
+}
+
+.footer-contacts-item {
+
+}
+
+.footer-contacts-link {
+
+}
+
+
+
+                    /* Main */
+
+
+.title-section {
+    width: 1600px;
+    height: 600px;
+}
+
+.title {
+
+}
+
+.title-section-button {
+
+}
+
+.features-section {
+    width: 1600px;
+    height: 766px;
+}
+
+.features-list {
+
+}
+
+.features-item {
+
+}
+
+.feature-name {
+
+}
+
+.feature-description {
+
+}
+
+.jobs-title {
+
+}
+
+.jobs-list {
+
+}
+
+.jobs-item {
+
+}
+
+.job-item-img {
+
+}
+
+.teammate-section {
+    width: 1600px;
+    height: 648px;
+}
+
+.teammate-section-title {
+
+}
+
+.teammate-section-list {
+
+}
+
+.teammate {
+
+}
+
+.teammate-img {
+
+}
+
+.teammate-name {
+
+}
+
+.teammate-proffesion {
+
+}
+
+
+
+                    /* Portfolio */
+
+
+.galery {
+
+}
+
+.galery-choose-list {
+
+}
+
+.galery-choose-button {
+
+}
+
+.galery-list {
+
+}
+
+.galery-item {
+
+}
+
+.galery-item-box {
+
+}
+
+.galery-box-img {
+
+}
+
+.galery-box-name {
+
+}
+
+.galery-box-type {
+
 }
