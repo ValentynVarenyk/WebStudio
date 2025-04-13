@@ -157,6 +157,8 @@
 .title-section {
     width: 1600px;
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .title {
@@ -175,6 +177,8 @@
 .features-section {
     width: 1600px;
     height: 766px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .features-list {
@@ -213,6 +217,8 @@
 .team-section {
     width: 1600px;
     height: 648px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-section-title {
@@ -247,7 +253,8 @@
 
 
 .galery {
-
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .galery-choose-list {
