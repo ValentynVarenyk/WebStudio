@@ -16,11 +16,14 @@
 /* Обидві сторінки */
 
 
-body {
+.container {
+    /* width: 1170px;
+    justify-content: center; */
+}
+
+.body {
     font-family: var(--first-family);
     font-weight: 700;
-    padding-left: 215px;
-    padding-right: 215px;
     display: inline;
 }
 
@@ -157,12 +160,14 @@ body {
 }
 
 .title {
+    display: inline;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.363636363636364;
 }
 
 .title-section-button {
+    display: inline;
     font-size: 16px;
     line-height: 1.875;
 }
