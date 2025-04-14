@@ -30,6 +30,7 @@
 
 .body {
     font-family: var(--first-family);
+    background-color: var(--white-color);
     font-weight: 700;
 }
 
@@ -101,6 +102,11 @@
 }
 
 .header-contacts-link {
+
+}
+
+.footer {
+    background-color: var(--gray-backgr-color);
 }
 
 .footer-logo {
@@ -151,6 +157,7 @@
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: var(--gray-backgr-color);
 }
 
 .title {
@@ -171,6 +178,7 @@
     height: 766px;
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 .features-list {
@@ -211,6 +219,7 @@
     height: 648px;
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: var(--gray-color);
 }
 
 .team-section-title {
@@ -247,6 +256,7 @@
 .galery {
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: var(--);
 }
 
 .galery-choose-list {
