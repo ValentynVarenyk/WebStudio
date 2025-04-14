@@ -16,15 +16,21 @@
 /* Обидві сторінки */
 
 
+/* * {
+    display: flex;
+} */
+
 .container {
-    /* width: 1170px;
-    justify-content: center; */
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .body {
     font-family: var(--first-family);
     font-weight: 700;
-    display: inline;
 }
 
 .header {
@@ -34,11 +40,10 @@
 }
 
 .header-nav {
-    display: inline;
+
 }
 
 .header-logo {
-    display: inline;
     padding-right: 93px;
     font-family: var(--second-family);
     font-size: 26px;
@@ -47,22 +52,18 @@
 }
 
 .header-logo-link {
-    display: inline;
     font-family: var(--second-family);
 }
 
 .header-logo-accent {
-    display: inline;
     color: var(--accent-color);
 }
 
 .header-logo-text {
-    display: inline;
     color: var(--text-title-color);
 }
 
 .nav-list {
-    display: inline;
     width: 16px;
     height: 281px;
     padding-top: 32px;
@@ -72,7 +73,6 @@
 }
 
 .nav-item {
-    display: inline;
     padding-right: 50px;
     font-family: var(--font-family);
     font-weight: 500;
@@ -81,49 +81,41 @@
 }
 
 .nav-item:hover {
-    display: inline;
     color: var(--accent-color);
 }
 
 .nav-item-link {
-    display: inline;
+
 }
 
 .nav-item-link:hover {
-    display: inline;
     color: var(--accent-color);
 }
 
 .header-contacts-list {
-    display: inline;
+
 }
 
 .header-contacts-item {
-    display: inline;
     font-weight: 500;
 }
 
 .header-contacts-link {
-    display: inline;
 }
 
 .footer-logo {
-    display: inline;
     font-size: 26px;
 }
 
 .footer-logo-link {
-    display: inline;
     font-family: var(--second-family);
 }
 
 .footer-logo-accent {
-    display: inline;
     color: var(--accent-color);
 }
 
 .footer-logo-text {
-    display: inline;
     color: var(--white-color);
 }
 
