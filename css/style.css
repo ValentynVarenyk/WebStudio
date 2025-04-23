@@ -9,16 +9,13 @@
 
     --first-family: 'Roboto';
     --second-family: 'Raleway';
+
+    /* --backgr-photo: ; */
 }
 
 
 
 /* Обидві сторінки */
-
-
-/* * {
-    display: flex;
-} */
 
 .container {
     width: 1200px;
@@ -37,18 +34,29 @@
 
 .header {
     background-color: var(--white-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-nav {
-
+    display: flex;
+    gap: 93px;
+    align-items: center;
 }
 
 .header-logo {
-    /* padding-right: 93px; */
     font-family: var(--second-family);
     font-size: 26px;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    display: flex;
 }
 
 .header-logo-link {
@@ -64,16 +72,12 @@
 }
 
 .nav-list {
-    width: 16px;
-    height: 281px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    /* padding-right: 344px; */
     color: var(--title-color);
+    display: flex;
+    gap: 50px;
 }
 
 .nav-item {
-    /* padding-right: 50px; */
     font-family: var(--font-family);
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -85,31 +89,44 @@
 }
 
 .nav-item-link {
-
+    color: var(--title-color);
 }
 
 .nav-item-link:hover {
     color: var(--accent-color);
 }
 
-.header-contacts-list {
+.current-link {
+    color: var(--accent-color);
+}
 
+.header-contacts-list {
+    display: flex;
+    gap: 50px;
 }
 
 .header-contacts-item {
     font-weight: 500;
+    display: flex;
 }
 
 .header-contacts-link {
+    color: var(--text-color);
+}
 
+.header-contacts-link:hover {
+    color: var(--accent-color);
 }
 
 .footer {
     background-color: var(--gray-backgr-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
     font-size: 26px;
+    padding-bottom: 20px;
 }
 
 .footer-logo-link {
@@ -125,7 +142,9 @@
 }
 
 .adress {
-
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
 }
 
 .footer-contacts-list {
@@ -135,15 +154,17 @@
 .footer-contacts-item-adress {
     line-height: 1.714285714285714;
     font-weight: 400;
+    color: var(--white-color);
 }
 
 .footer-contacts-item {
     line-height: 1.714285714285714;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contacts-link {
-
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -156,19 +177,34 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--gray-backgr-color);
+    /* background-image: ; */  
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title {
-    display: inline;
+    width: 696px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.363636363636364;
+    color: var(--white-color);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .title-section-button {
-    display: inline;
     font-size: 16px;
     line-height: 1.875;
+    width: 216px;
+    height: 50px;
+    background-color: var(--accent-color);
+    
 }
 
 .features-section {
@@ -178,7 +214,8 @@
 }
 
 .features-list {
-
+    display: flex;
+    gap: 30px;
 }
 
 .features-item {
@@ -192,14 +229,20 @@
 .feature-description {
     font-weight: 400;
     line-height: 1.714285714285714;
+    color: var(--text-color);
 }
 
 .jobs-title {
+    display: flex;
     font-size: 36px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
 .jobs-list {
-
+    display: flex;
+    gap: 30px;
 }
 
 .jobs-item {
@@ -217,29 +260,42 @@
 }
 
 .team-section-title {
+    display: flex;
     font-size: 36px;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
 .team-section-list {
-
+    display: flex;
+    gap: 30px;
 }
 
 .teammate {
-
+    display: flex;
+    background-color: var(--white-color);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .teammate-img {
-
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
 }
 
 .teammate-name {
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .teammate-proffesion {
     font-size: 16px;
     font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 30px;
 }
 
 
