@@ -17,6 +17,10 @@
 
 /* Обидві сторінки */
 
+* {
+    /* outline: solid red; */
+}
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -314,15 +318,21 @@
 .galery {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--);
 }
 
 .galery-choose-list {
-
+    display: flex;
+    gap: 8px;
 }
 
 .galery-choose-button {
-
+    display: flex;
+    height: 38px;
+    padding: 6px 22px 6px 22px;
+    color: var(--title-color);
+    background-color: var(--gray-color);
+    font-size: 16px;
+    
 }
 
 .galery-list {
