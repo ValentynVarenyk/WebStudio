@@ -39,8 +39,8 @@
 
 .header {
     background-color: var(--white-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-container {
@@ -131,7 +131,7 @@
 
 .footer-logo {
     font-size: 26px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-logo-link {
@@ -153,7 +153,6 @@
 }
 
 .footer-contacts-list {
-
 }
 
 .footer-contacts-item-adress {
@@ -166,6 +165,7 @@
     line-height: 1.714285714285714;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
 }
 
 .footer-contacts-link {
@@ -237,6 +237,7 @@
 
 .feature-name {
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .feature-description {
@@ -290,6 +291,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .teammate-img {
@@ -308,7 +310,6 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--text-color);
-    margin-bottom: 30px;
 }
 
 
@@ -325,7 +326,7 @@
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .galery-choose-button {
@@ -340,14 +341,21 @@
     align-items: center;
 }
 
-.accent-color {
-    background-color: var(--accent-color);
+.galery-choose-button {
+    display: flex;
+    height: 38px;
+    padding: 6px 22px 6px 22px;
     color: var(--white-color);
+    background-color: var(--accent-color);
+    font-size: 16px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
 .galery-list {
-    gap: 30px;
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -357,7 +365,6 @@
 
 .galery-item-box {
     width: 370px;
-    height: 404px;
     border: var(--border-color) 1px solid;
 }
 
@@ -366,10 +373,9 @@
     height: 294px;
 }
 
-.galery-item-description{
+.galery-item-description {
     display: flex;
-    width: 322px;
-    height: 70px;
+    /* height: 70px; */
     flex-direction: column;
     padding: 20px 24px;
     gap: 4px;
