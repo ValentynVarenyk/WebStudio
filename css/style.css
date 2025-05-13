@@ -341,7 +341,7 @@
     align-items: center;
 }
 
-.galery-choose-button {
+.galery-choose-button:hover {
     display: flex;
     height: 38px;
     padding: 6px 22px 6px 22px;
@@ -360,11 +360,13 @@
 }
 
 .galery-item { 
-    
+    flex-basis: calc((100% - 60px) / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .galery-item-box {
-    width: 370px;
+    /* width: 370px; */
     border: var(--border-color) 1px solid;
 }
 
