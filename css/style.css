@@ -235,6 +235,14 @@
 
 }
 
+.features-item-1::before {
+    content: "";
+    background-image: url("../images/uvaga-img.png");
+    width: 65.32px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
 .feature-name {
     text-transform: uppercase;
     margin-bottom: 10px;
