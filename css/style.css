@@ -236,7 +236,35 @@
 }
 
 .features-item-1::before {
-    
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-image: url("../images/group-1.png");
+}
+
+.features-item-2::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-image: url("../images/group-2.png");
+}
+
+.features-item-3::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-image: url("../images/group-3.png");
+}
+
+.features-item-4::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-image: url("../images/group-4.png");
 }
 
 .feature-name {
