@@ -10,17 +10,12 @@
 
     --first-family: 'Roboto';
     --second-family: 'Raleway';
-
-    /* --backgr-photo: ; */
 }
 
 
 
-/* Обидві сторінки */
+                                        /* Header Обидвох сторінок */
 
-* {
-    /* outline: solid red; */
-}
 
 .container {
     width: 1200px;
@@ -28,7 +23,6 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: solid red; */
 }
 
 .body {
@@ -113,6 +107,30 @@
 .header-contacts-item {
     font-weight: 500;
     display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.header-contacts-item:hover {
+    color: var(--accent-color);
+}
+
+.header-contacts-svg {
+    color: var(--text-color);
+}
+
+.header-contacts-svg:hover {
+    color: var(--accent-color);
+}
+
+.header-contacts-svg-1 {
+    width: 16px;
+    height: 12px;
+}
+
+.header-contacts-svg-2 {
+    width: 10px;
+    height: 16px;
 }
 
 .header-contacts-link {
@@ -122,6 +140,11 @@
 .header-contacts-link:hover {
     color: var(--accent-color);
 }
+
+
+
+                                        /* Footer Обидвох сторінок */
+
 
 .footer {
     background-color: var(--gray-backgr-color);
@@ -174,7 +197,7 @@
 
 
 
-                    /* Main */
+                                        /* Main */
 
 
 .title-section {
@@ -349,7 +372,7 @@
 
 
 
-                    /* Portfolio */
+                                        /* Portfolio */
 
 
 .galery {
