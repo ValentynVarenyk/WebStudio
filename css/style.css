@@ -14,9 +14,10 @@
 
 
 
-                                        /* Header Обидвох сторінок */
 
+                                        /* Загальне використання */
 
+                                        
 .container {
     width: 1200px;
     margin-left: auto;
@@ -30,6 +31,11 @@
     background-color: var(--white-color);
     font-weight: 700;
 }
+
+
+
+                                        /* Header Обох сторінок */
+
 
 .header {
     background-color: var(--white-color);
@@ -108,30 +114,27 @@
     font-weight: 500;
     display: flex;
     align-items: center;
-    color: var(--text-color);
+    gap: 10px;
+    fill: var(--text-color);
+    cursor: pointer;
 }
 
 .header-contacts-item:hover {
-    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
-.header-contacts-svg {
-    color: var(--text-color);
-    outline: red solid;
-}
-
-.header-contacts-svg:hover {
+.header-contacts-item:hover .header-contacts-link {
     color: var(--accent-color);
 }
 
 .header-contacts-svg-1 {
-    width: 19px;
-    height: 15px;
+    width: 24px;
+    height: 18px;
 }
 
 .header-contacts-svg-2 {
-    width: 13px;
-    height: 19px;
+    width: 15px;
+    height: 24px;
 }
 
 .header-contacts-link {
@@ -144,7 +147,7 @@
 
 
 
-                                        /* Footer Обидвох сторінок */
+                                        /* Footer Обох сторінок */
 
 
 .footer {
@@ -177,6 +180,7 @@
 }
 
 .footer-contacts-list {
+
 }
 
 .footer-contacts-item-adress {
