@@ -25,12 +25,12 @@
           </p>
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="./index.html" class="nav-item-link">Студія</a>
+              <a href="./index.html" class="nav-item-link current-link"
+                >Студія</a
+              >
             </li>
             <li class="nav-item">
-              <a href="./portfolio.html" class="nav-item-link current-link"
-                >Портфоліо</a
-              >
+              <a href="./portfolio.html" class="nav-item-link">Портфоліо</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-item-link">Контакти</a>
@@ -39,11 +39,17 @@
         </nav>
         <ul class="header-contacts-list">
           <li class="header-contacts-item">
+            <svg class="header-contacts-svg-1">
+              <use href="./images/symboldefts.svg#icon-envelope"></use>
+            </svg>
             <a href="mailto:info@devstudio.com" class="header-contacts-link">
               info@devstudio.com
             </a>
           </li>
           <li class="header-contacts-item">
+            <svg class="header-contacts-svg-2">
+              <use href="./images/symboldefts.svg#icon-phone"></use>
+            </svg>
             <a href="tel:+38-096-111-11-11" class="header-contacts-link">
               +38 096 111 11 11
             </a>
@@ -195,29 +201,76 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <p class="footer-logo">
-          <a href="./index.html" class="footer-logo-link"
-            ><span class="footer-logo-accent">Web</span
-            ><span class="footer-logo-text">Studio</span></a
-          >
-        </p>
-        <address class="adress">
-          <ul class="footer-contacts-list">
-            <li class="footer-contacts-item-adress">
-              м. Київ, пр-т Лесі Українки, 26
-            </li>
-            <li class="footer-contacts-item">
-              <a href="mailto:info@devstudio.com" class="footer-contacts-link"
-                >info@devstudio.com</a
+        <div class="footer-container">
+          <div>
+            <p class="footer-logo">
+              <a href="./index.html" class="footer-logo-link"
+                ><span class="footer-logo-accent">Web</span
+                ><span class="footer-logo-text">Studio</span></a
               >
-            </li>
-            <li class="footer-contacts-item">
-              <a href="tel:+38-096-111-11-11" class="footer-contacts-link"
-                ><i>+38 096 111 11 11</i></a
-              >
-            </li>
-          </ul>
-        </address>
+            </p>
+            <address class="adress">
+              <ul class="footer-contacts-list">
+                <li class="footer-contacts-item-adress">
+                  м. Київ, пр-т Лесі Українки, 26
+                </li>
+                <li class="footer-contacts-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="footer-contacts-link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="footer-contacts-item">
+                  <a href="tel:+38-096-111-11-11" class="footer-contacts-link"
+                    ><i>+38 096 111 11 11</i></a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div>
+            <h3 class="footer-socials-title">Приєднуйтесь</h3>
+            <ul class="footer-socials">
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <button type="button" class="footer-social">
+                    <svg class="footer-svg-social">
+                      <use href="./images/symboldefts.svg#icon-socials1"></use>
+                    </svg>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <button type="button" class="footer-social">
+                    <svg class="footer-svg-social">
+                      <use href="./images/symboldefts.svg#icon-socials2"></use>
+                    </svg>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <button type="button" class="footer-social">
+                    <svg class="footer-svg-social">
+                      <use href="./images/symboldefts.svg#icon-socials3"></use>
+                    </svg>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <button type="button" class="footer-social">
+                    <svg class="footer-svg-social">
+                      <use href="./images/symboldefts.svg#icon-socials4"></use>
+                    </svg>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
