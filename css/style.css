@@ -149,7 +149,6 @@
 .footer-container {
   display: flex;
   flex-direction: row;
-  gap: 70px;
 }
 
 .footer-logo {
@@ -169,10 +168,15 @@
   color: var(--white-color);
 }
 
+.footer-contacts {
+  margin-right: 70px;
+}
+
 .adress {
   display: flex;
   gap: 9px;
   flex-direction: column;
+  width: 231px;
 }
 
 .footer-contacts-list {
@@ -195,6 +199,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-socials {
+  margin-right: 93px;
+}
+
 .footer-socials-title {
   font-weight: 700;
   font-size: 14px;
@@ -203,7 +211,7 @@
   margin-bottom: 20px;
 }
 
-.footer-socials {
+.footer-socials-list {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -231,6 +239,61 @@
 
 .footer-social:hover .footer-svg-social {
   fill: #fff;
+}
+
+.footer-rozsylka {
+}
+
+.footer-rozsylka-text {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.footer-rozsylka-form {
+  display: flex;
+}
+
+.footer-rozsylka-input {
+  border: solid rgba(255, 255, 255, 0.3) 1px;
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding-left: 16px;
+  display: flex;
+  margin-right: 12px;
+}
+
+.footer-rozsylka-button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+
+.footer-rozsylka-button-text {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+}
+
+.footer-rozsylka-button-svg {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  color: #fff;
 }
 
 /* Main */
@@ -366,7 +429,7 @@
 
 .jobs-item-description {
   font: 700;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
@@ -595,4 +658,43 @@
   color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Modals */
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-hidden {
+  display: none;
+}
+
+/* .no-scroll {} */
+
+.title-section-modal {
+  width: 528px;
+  height: 581px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-modal-close-button {
+
+}
+
+.title-modal-close-svg {
+  fill: #000;
+  width: 11px;
+  height: 11px;
 }

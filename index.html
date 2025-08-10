@@ -61,7 +61,7 @@
       <section class="title-section">
         <div class="container title-container">
           <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button class="title-section-button">Замовити послугу</button>
+          <button class="title-section-button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="features-section">
@@ -432,7 +432,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
-          <div>
+          <div class="footer-contacts">
             <p class="footer-logo">
               <a href="./index.html" class="footer-logo-link"
                 ><span class="footer-logo-accent">Web</span
@@ -459,9 +459,9 @@
               </ul>
             </address>
           </div>
-          <div>
+          <div class="footer-socials">
             <h3 class="footer-socials-title">Приєднуйтесь</h3>
-            <ul class="footer-socials">
+            <ul class="footer-socials-list">
               <li>
                 <a href="https://www.instagram.com/" target="_blank">
                   <button type="button" class="footer-social">
@@ -500,8 +500,34 @@
               </li>
             </ul>
           </div>
+          <div class="footer-rozsylka">
+            <p class="footer-rozsylka-text">підпишіться на розсилку</p>
+            <div class="footer-rozsylka-form">
+              <input
+                type="email"
+                class="footer-rozsylka-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="footer-rozsylka-button">
+                <p class="footer-rozsylka-button-text">Підписатись</p>
+                <svg class="footer-rozsylka-button-svg">
+                  <use href="./images/symboldefts.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
+    <div class=" backdrop is-hidden" data-modal>
+      <div class="title-section-modal">
+        <button type="button" data-modal-close class="title-modal-close-button">
+          <svg class="title-modal-close-svg">
+            <use href="./images/symboldefts.svg#icon-close-x"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
