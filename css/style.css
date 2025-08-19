@@ -278,14 +278,13 @@
   display: flex;
   border-radius: 4px;
   background-color: #2196f3;
-}
-
-.footer-rozsylka-button-text {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   font-size: 16px;
   font-family: "Roboto";
   font-weight: 700;
   color: #fff;
-  display: flex;
 }
 
 .footer-rozsylka-button-svg {
@@ -343,6 +342,10 @@
   color: var(--white-color);
   font-weight: 700;
   letter-spacing: 0.6px;
+}
+
+.title-section-button:hover {
+  background-color: rgba(0, 115, 207, 1);
 }
 
 .features-section {
@@ -687,14 +690,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .title-modal-close-button {
-
 }
 
 .title-modal-close-svg {
   fill: #000;
   width: 11px;
   height: 11px;
+}
+
+.title-section-modal-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.title-section-modal-list {
+  width: 448px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section-modal-item {
+  width: 448px;
+  height: 58px;
+  flex-direction: column;
+}
+
+.title-section-modal-label {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-section-modal-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 40px;
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
+  padding-left: 16px;
 }

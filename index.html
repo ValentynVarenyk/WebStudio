@@ -61,7 +61,9 @@
       <section class="title-section">
         <div class="container title-container">
           <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button class="title-section-button" data-modal-open>Замовити послугу</button>
+          <button class="title-section-button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="features-section">
@@ -509,7 +511,7 @@
                 placeholder="E-mail"
               />
               <button type="submit" class="footer-rozsylka-button">
-                <p class="footer-rozsylka-button-text">Підписатись</p>
+                Підписатись
                 <svg class="footer-rozsylka-button-svg">
                   <use href="./images/symboldefts.svg#icon-send"></use>
                 </svg>
@@ -519,13 +521,44 @@
         </div>
       </div>
     </footer>
-    <div class=" backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="title-section-modal">
         <button type="button" data-modal-close class="title-modal-close-button">
           <svg class="title-modal-close-svg">
             <use href="./images/symboldefts.svg#icon-close-x"></use>
           </svg>
         </button>
+        <p class="title-section-modal-title">
+          Залиште свої дані, ми вам передзвонимо
+        </p>
+        <ul class="title-section-modal-list">
+          <li class="title-section-modal-item">
+            <label class="title-section-modal-label">
+              Ім'я
+              <input type="text" class="title-section-modal-input" />
+            </label>
+          </li>
+          <li class="title-section-modal-item">
+            <label class="title-section-modal-label">
+              Телефон
+              <input type="tel" class="title-section-modal-input" />
+            </label>
+          </li>
+          <li class="title-section-modal-item">
+            <label class="title-section-modal-label">
+              Пошта
+              <input type="email" class="title-section-modal-input" />
+            </label>
+            <label class="title-section-modal-label">
+              Коментар
+              <input
+                type="text"
+                class="title-section-modal-input"
+                placeholder="Введіть текст"
+              />
+            </label>
+          </li>
+        </ul>
       </div>
     </div>
     <script src="./js/index.js"></script>
