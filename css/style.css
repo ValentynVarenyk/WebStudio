@@ -30,10 +30,16 @@
 
 /* Header Обох сторінок */
 
+.header-secret {
+  height: 80px;
+}
+
 .header {
   background-color: var(--white-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  width: 1600px;
+  position: fixed;
+  z-index: 2;
+  border: rgba(236, 236, 236, 1) solid 2px;
 }
 
 .header-container {
@@ -73,6 +79,8 @@
   color: var(--title-color);
   display: flex;
   gap: 50px;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .nav-item {
@@ -96,6 +104,17 @@
 
 .current-link {
   color: var(--accent-color);
+}
+
+.current-link::after {
+  display: block;
+  content: "";
+  margin-top: 28px;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  box-sizing: border-box;
 }
 
 .header-contacts-list {
@@ -587,19 +606,19 @@
 
 /* Portfolio */
 
-.galery {
+.gallery {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.galery-choose-list {
+.gallery-choose-list {
   display: flex;
   gap: 8px;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.galery-choose-button {
+.gallery-choose-button {
   display: flex;
   height: 38px;
   padding: 6px 22px 6px 22px;
@@ -611,7 +630,7 @@
   align-items: center;
 }
 
-.galery-choose-button:hover {
+.gallery-choose-button:hover {
   display: flex;
   height: 38px;
   padding: 6px 22px 6px 22px;
@@ -623,41 +642,68 @@
   align-items: center;
 }
 
-.galery-list {
+.current-gallery-choose-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.gallery-list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.galery-item {
+.gallery-item {
   flex-basis: calc((100% - 60px) / 3);
   display: flex;
   flex-wrap: wrap;
 }
 
-.galery-item-box {
+.gallery-item-box {
   border: var(--border-color) 1px solid;
 }
 
-.galery-box-img {
+.gallery-box-img-overlay {
+  background-color: rgba(33, 150, 243, 0.9);
+  width: 370px;
+  height: 294px;
+  position: absolute;
+  opacity: 0;
+}
+
+.gallery-box-img-overlay:hover {
+  opacity: 1;
+}
+
+.gallery-img-overlay-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin: 63px 24px;
+}
+
+.gallery-box-img {
   width: 370px;
   height: 294px;
 }
 
-.galery-item-description {
+.gallery-item-description {
   display: flex;
   flex-direction: column;
   padding: 20px 24px;
   gap: 4px;
 }
 
-.galery-box-name {
+.gallery-box-name {
   color: var(--title-color);
   font-size: 18px;
   font-weight: 700;
 }
 
-.galery-box-type {
+.gallery-box-type {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
@@ -680,8 +726,6 @@
 .is-hidden {
   display: none;
 }
-
-/* .no-scroll {} */
 
 .title-section-modal {
   width: 528px;
