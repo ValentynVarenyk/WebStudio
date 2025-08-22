@@ -10,6 +10,8 @@
 
   --first-family: "Roboto";
   --second-family: "Raleway";
+
+  --animation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Загальне використання */
@@ -88,14 +90,21 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  transition: var(--animation);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .nav-item:hover {
   color: var(--accent-color);
+  
 }
 
 .nav-item-link {
   color: var(--title-color);
+  transition: var(--animation);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .nav-item-link:hover {
@@ -129,6 +138,9 @@
   gap: 10px;
   fill: var(--text-color);
   cursor: pointer;
+  transition: var(--animation);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .header-contacts-item:hover {
@@ -142,15 +154,24 @@
 .header-contacts-svg-1 {
   width: 24px;
   height: 18px;
+  transition: var(--animation);
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .header-contacts-svg-2 {
   width: 15px;
   height: 24px;
+  transition: var(--animation);
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .header-contacts-link {
   color: var(--text-color);
+  transition: var(--animation);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .header-contacts-link:hover {
@@ -243,6 +264,9 @@
   padding: 12px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: var(--animation);
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .footer-svg-social {
@@ -304,6 +328,14 @@
   font-family: "Roboto";
   font-weight: 700;
   color: #fff;
+  cursor: pointer;
+  transition: var(--animation);
+  transition-property: background-color;
+  transition-duration: 250ms;
+}
+
+.footer-rozsylka-button:hover {
+  background-color: rgba(0, 115, 207, 1);
 }
 
 .footer-rozsylka-button-svg {
@@ -361,6 +393,9 @@
   color: var(--white-color);
   font-weight: 700;
   letter-spacing: 0.6px;
+  transition: var(--animation);
+  transition-property: background-color;
+  transition-duration: 200ms;
 }
 
 .title-section-button:hover {
@@ -529,6 +564,9 @@
   height: 44px;
   padding: 12px;
   border-radius: 50%;
+  transition: var(--animation);
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .teammate-svg-social {
@@ -536,6 +574,9 @@
   width: 20px;
   height: 20px;
   fill: rgb(175, 177, 184);
+  transition: var(--animation);
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .teammate-social:hover {
@@ -575,6 +616,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: var(--animation);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .company:hover {
@@ -597,6 +641,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: var(--animation);
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .company:hover .company-logo-svg {
@@ -628,6 +675,9 @@
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  transition: var(--animation);
+  transition-property: color background-color;
+  transition-duration: 250ms;
 }
 
 .gallery-choose-button:hover {
@@ -669,6 +719,9 @@
   height: 294px;
   position: absolute;
   opacity: 0;
+  transition: var(--animation);
+  transition-property: opacity;
+  transition-duration: 250ms;
 }
 
 .gallery-box-img-overlay:hover {
@@ -801,6 +854,22 @@
   flex-direction: column;
 }
 
+.title-modal-input-box {
+  position: relative;
+  margin-top: 4px;
+}
+
+.title-modal-input-svg {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  flex-shrink: 0;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  color: #000;
+}
+
 .title-section-modal-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -811,7 +880,7 @@
   font-size: 12px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  padding-left: 16px;
+  padding-left: 42px;
 }
 
 .title-section-modal-input2 {
@@ -825,13 +894,11 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
   padding-left: 16px;
-  display: flex;
+  margin-top: 4px;
 }
 
 .title-section-modal-input2::placeholder {
   color: rgba(117, 117, 117, 0.5);
-  display: flex;
-  align-items: start;
 }
 
 .title-section-modal-text {
