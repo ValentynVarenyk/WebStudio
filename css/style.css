@@ -12,7 +12,6 @@
   --second-family: "Raleway";
 
   --animation: cubic-bezier(0.25, 0.5, 0.75, 1);
-  --animation-back: cubic-bezier(1, 0.2, 0, 0.4);
 }
 
 /* Загальне використання */
@@ -717,7 +716,6 @@
 }
 
 .gallery-overlay-box {
-  opacity: 0;
   width: 370px;
   height: 294px;
   position: absolute;
@@ -725,27 +723,27 @@
 }
 
 .gallery-box-img-overlay {
-  transform: scale(1) translate(0, 294px);
+  transform: translate(0, 294px);
   background-color: rgba(33, 150, 243, 0.9);
   width: 370px;
   height: 294px;
   position: absolute;
-  transition: var(--animation);
-  transition-property: transform, opacity, transition;
-  transition-duration: 250ms;
-  opacity: 1;
+  animation: galleryBoxImgOverlay 750ms;
 }
 
-.gallery-overlay-box:hover {
-  opacity: 1;
+@keyframes galleryBoxImgOverlay {
+  0% {transform: translate(0, 0);}
+  100% {transform: translate(0, 294px);}
 }
 
 .gallery-overlay-box:hover .gallery-box-img-overlay {
-  transform: scale(1) translate(0, 0);
-  opacity: 1;
-  transition: var(--animation-back);
-  transition-property: transform, opacity, transition;
-  transition-duration: 250ms;
+  animation: galleryBoxImgOverlayHover 750ms;
+  transform: translate(0, 0);
+}
+
+@keyframes galleryBoxImgOverlayHover {
+  0% {transform: translate(0, 294px);}
+  100% {transform: translate(0, 0);}
 }
 
 .gallery-img-overlay-text {
